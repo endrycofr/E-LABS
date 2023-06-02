@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E-LABS</string>
+    <string name="logout">logout</string>
+    <string name="text">HALO</string>
+    <string name="test1">TEST1</string>
+    <string name="test2">TEST2</string>
+    <string name="intro">    Welcome to our innovative Labs, where groundbreaking ideas come to life
+</string>
+</resources>
