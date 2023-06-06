@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">E-LABS</string>
+    <string name="logout">logout</string>
+    <string name="text">HALO</string>
+    <string name="test1">TEST1</string>
+    <string name="test2">TEST2</string>
+    <string name="intro">    Welcome to our innovative Labs, where groundbreaking ideas come to life
+</string>
+    <string name="tentang1">Laboratorium Mobile Communication dan IoT disiapkan untuk menyelengarakan praktikum berbasis Internet of Things (IoT) dan jaringan bergerak. Di laboratorium ini mahasiswadiajarkan mengenai terapan segala hal yang berkaitan dengan aplikasi IoT dan penunjangnya dengan menggunakan perangkat yang berbasis Smart Home, Smart City dan Smart Agriculture</string>
+<string name="tentang2">
+Laboratorium ini dikonsentrasikan pada materi perkuliahan praktikum:
+     \n
+    -Internet of Things (P)
+     \n
+    -Komputasi Bergerak (P)
+     \n
+    -Embedded System (P)
+     \n
+    -Sistim Komunikasi Nirkabel (P)
+     \n
+    -Jaringan Nirkabel (P)
+</string>
+    <string name="tentang3">
+        Berikut adalah beberapa kegiatan yang mungkin dilakukan di Lab Mobile Communication dan IoT:
+        \n
+1.	Eksperimen Jaringan Seluler: Melakukan eksperimen untuk memahami prinsip kerja jaringan seluler, seperti pengaturan frekuensi, modulasi, multiple access, handover, dan fitur lainnya.
+         \n
+2.	Pengembangan Aplikasi IoT: Membangun dan menguji aplikasi IoT menggunakan platform dan perangkat keras seperti Raspberry Pi, Arduino, atau platform IoT lainnya. Contohnya, membangun sistem monitoring lingkungan dengan sensor-sensor yang terhubung secara nirkabel.
+         \n
+3.	Pengujian Jaringan Nirkabel: Melakukan pengujian kinerja jaringan nirkabel seperti Wi-Fi, Bluetooth, atau Zigbee untuk memahami parameter kualitas layanan (QoS) dan parameter lainnya.
+         \n
+4.	Simulasi dan Analisis Jaringan: Menggunakan perangkat lunak simulasi jaringan untuk menganalisis kinerja jaringan seluler atau jaringan IoT dalam berbagai skenario, seperti penambahan atau penghapusan perangkat, kepadatan lalu lintas, atau model mobilitas.
+         \n
+5.	Pengembangan Aplikasi Mobile: Membangun aplikasi mobile menggunakan platform seperti Android atau iOS, dengan fokus pada komunikasi seluler, penggunaan sensor, dan konektivitas jaringan.
+         \n
+6.	Keamanan IoT: Mempelajari dan menguji keamanan perangkat IoT, termasuk identifikasi celah keamanan, teknik enkripsi, autentikasi, dan tindakan mitigasi untuk melindungi sistem IoT dari serangan.
+
+</string>
+</resources>
