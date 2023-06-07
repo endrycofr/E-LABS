@@ -65,8 +65,36 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Selengkapnya"
-                        android:textAllCaps="false"/>
+                        android:textAllCaps="false"
+                        android:layout_marginRight="10dp"/>
 
+                    <ImageButton
+                        android:id="@+id/imagemin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparant"
+                        android:src="@drawable/baseline_min"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:id="@+id/jumlahPesanan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="16sp"
+                        android:layout_marginEnd="16sp"
+                        android:text="0"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/imageadd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparant"
+                        android:src="@drawable/baseline_add"
+                        tools:ignore="SpeakableTextPresentCheck" />
 
 
                 </LinearLayout>
@@ -121,9 +149,37 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Selengkapnya"
-                    android:textAllCaps="false"/>
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="10dp"/>
 
+                <ImageButton
+                    android:id="@+id/imagemin1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparant"
+                    android:src="@drawable/baseline_min"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
+                <TextView
+                    android:id="@+id/jumlahPesanan1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginEnd="16sp"
+                    android:text="0"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageadd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparant"
+                    android:src="@drawable/baseline_add"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
             </LinearLayout>
 
@@ -177,7 +233,37 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Selengkapnya"
-                        android:textAllCaps="false"/>
+                        android:textAllCaps="false"
+                        android:layout_marginRight="10dp"/>
+
+
+                    <ImageButton
+                        android:id="@+id/imagemin2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparant"
+                        android:src="@drawable/baseline_min"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:id="@+id/jumlahPesanan2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="16sp"
+                        android:layout_marginEnd="16sp"
+                        android:text="0"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/imageadd2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparant"
+                        android:src="@drawable/baseline_add"
+                        tools:ignore="SpeakableTextPresentCheck" />
 
 
 
@@ -242,7 +328,7 @@
         android:layout_marginEnd="16dp"
         >
     <ImageView
-        android:id="@+id/imageButton"
+        android:id="@+id/checkout"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:src="@drawable/baseline_shopping_cart_24"
