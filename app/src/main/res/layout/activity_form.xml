@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".form">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Equipment Loan Form "
+                android:textSize="25sp"
+                android:layout_marginTop="80dp"
+                android:textColor="@color/birue"
+                android:textStyle="bold"
+                android:fontFamily="@font/boldpop"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your information to Equipment Loan !"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/mediumpop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/mediumpop"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_btn_stroke"
+                    android:padding="10dp"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:textSize="16sp"
+                    android:textColor="@color/abu"
+                    android:fontFamily="@font/mediumpop"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NRP"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/mediumpop"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_btn_stroke"
+                    android:padding="10dp"
+                    android:ems="10"
+                    android:hint="NRP"
+                    android:textSize="14sp"
+                    android:textColor="@color/abu"
+                    android:fontFamily="@font/mediumpop" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Major Class"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/mediumpop"/>
+
+                <EditText
+                    android:layout_width="272dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_btn_stroke"
+                    android:ems="10"
+                    android:fontFamily="@font/mediumpop"
+                    android:hint="Major Class"
+                    android:padding="10dp"
+                    android:textColor="@color/abu"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/mediumpop"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_btn_stroke"
+                    android:padding="10dp"
+                    android:ems="10"
+                    android:hint="Phone Number"
+                    android:textSize="14sp"
+                    android:textColor="@color/abu"
+                    android:fontFamily="@font/mediumpop" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/mediumpop"/>
+
+                <EditText
+                    android:layout_width="272dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_btn_stroke"
+                    android:ems="10"
+                    android:fontFamily="@font/mediumpop"
+                    android:hint="Item"
+                    android:padding="10dp"
+                    android:textColor="@color/abu"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/mediumpop"/>
+
+                <EditText
+                    android:id="@+id/editTextDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_btn_stroke"
+                    android:ems="10"
+                    android:fontFamily="@font/mediumpop"
+                    android:hint="Select Date"
+                    android:padding="10dp"
+                    android:textColor="@color/abu"
+                    android:textSize="14sp"
+                    android:focusable="false"
+                    android:onClick="showDatePickerDialog"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Return Date"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/mediumpop"/>
+
+                <EditText
+                    android:id="@+id/editTextreturnDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_btn_stroke"
+                    android:ems="10"
+                    android:fontFamily="@font/mediumpop"
+                    android:hint="Select Date"
+                    android:padding="10dp"
+                    android:textColor="@color/abu"
+                    android:textSize="14sp"
+                    android:focusable="false"
+                    android:onClick="showDatePickerDialog"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check out"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/btn_bg"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="40dp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</ScrollView>
